@@ -1,0 +1,34 @@
+# Milestones — 2 Days
+
+This first project is intentionally short: 2 focused days, not a full week.
+Two checkpoints, working backward from what a complete submission needs:
+
+## Day 1 — Environment set up, raw look, first commits
+
+- Repo created from the template (`GETTING_STARTED.md`), cloned locally.
+- Your own `.gitignore` and `LICENSE` created and committed.
+- Dataset downloaded and actually opened raw (plain text/`less`/`head`) —
+  before any code.
+- Section 1 of `field_notes.ipynb` filled in with real observations from that
+  raw look.
+- Column types loaded and inspected (`field_notes.ipynb` section 2-3).
+
+**Exit criterion:** at least 2 real commits pushed to GitHub by end of day —
+e.g. `add gitignore and license`, then `add raw data notes`. `git log
+--oneline` on your repo should already tell a real story, not be empty.
+
+## Day 2 — Reflection, polish, submit
+
+- Structured/unstructured call written, with reasoning.
+- One specific, checkable data-quality question written.
+- `README.md`'s "what I found" section filled in (dataset, license, your
+  data-quality question).
+- Final commit(s) pushed — `git log --oneline` should show 3+ commits total,
+  each with a real message.
+- Confirm your repo is actually **public** (open it in a private/incognito
+  browser window to check).
+
+**Exit criterion:** everything above is done and pushed. That's the whole
+submission — this project doesn't have a separate "above and beyond" phase
+built into the 2-day pace; if you finish with real time left over, ask your
+instructor about stretch options.
