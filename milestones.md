@@ -17,12 +17,16 @@ Two checkpoints, working backward from what a complete submission needs:
 e.g. `add gitignore and license`, then `add raw data notes`. `git log
 --oneline` on your repo should already tell a real story, not be empty.
 
-## Day 2 — Reflection, polish, submit
+## Day 2 — Reflections, polish, submit
 
-- Structured/unstructured call written, with reasoning.
-- One specific, checkable data-quality question written.
-- `README.md`'s "what I found" section filled in (dataset, license, your
-  data-quality question).
+- Structured/unstructured call written, with reasoning (section 4).
+- At least 2 collection-process concerns listed, and the most checkable one
+  turned into a real data-quality question (sections 5-6).
+- A separate, genuinely-curious question written (section 7) — not the same
+  question as section 6.
+- AI-literacy reflection: 2 risks + one specific personal rule (section 8).
+- `README.md` finished: dataset/license, data-quality question, and the
+  terminal-error note at the bottom.
 - Final commit(s) pushed — `git log --oneline` should show 3+ commits total,
   each with a real message.
 - Confirm your repo is actually **public** (open it in a private/incognito

@@ -2,7 +2,27 @@
 
 This repo is a **GitHub template** — a starting point, not something you edit
 directly on Marcy's copy of it. This is the first project of the whole
-program, so this doc assumes you've never done any of this before.
+program, so this doc assumes you've never done any of this before. Everyone
+in this cohort is on **macOS** — these directions only cover that, on
+purpose, so there's no cross-platform noise to wade through.
+
+## Writing bash commands (you'll need this)
+
+Anywhere in this project you write down a terminal command — in
+`TERMINAL_LOG.md`, your `README.md`, anywhere — write it in a **fenced code
+block tagged `bash`**, like this:
+
+````
+```bash
+git status
+```
+````
+
+Three backticks, the word `bash`, your command, three backticks to close.
+This is the standard way commands are shown in any real README or docs
+site — it renders with syntax highlighting and makes the command
+copy-pasteable, instead of just sitting in a paragraph as plain text. You'll
+use this throughout `TERMINAL_LOG.md` (see Step 4).
 
 ## Step 1: Get your own copy
 
@@ -24,10 +44,11 @@ a public repo), and create it.
 
 ## Step 2: Clone your new repo locally
 
-On your own new repo's page (not this template), click the green **Code**
-button, copy the HTTPS URL, then in your terminal:
+Open **Terminal** (`Cmd+Space`, type "Terminal," hit Enter). On your own new
+repo's page (not this template), click the green **Code** button, copy the
+HTTPS URL, then:
 
-```
+```bash
 git clone <the URL you copied>
 cd <your-repo-name>
 ```
@@ -51,7 +72,7 @@ assignment, not busywork:
   default for a personal project — see https://choosealicense.com if you want
   to understand the tradeoffs before picking.
 - **Make your first commit.** Once you've added those two files:
-  ```
+  ```bash
   git add .gitignore LICENSE
   git commit -m "add gitignore and license"
   git push
@@ -62,9 +83,22 @@ sets up the local repo and connects the remote for you) — if you're not sure
 `git status` and `git remote -v` both work cleanly in this folder, that's the
 first thing to check before moving on.
 
-## Step 4: Do the actual project
+## Step 4: Keep a real terminal log as you work
+
+This module tests `terminal-command-line` as its own skill, not just "did
+you use git" — so **`TERMINAL_LOG.md` is a required part of this
+project, not optional extra credit.** Open it now and start filling it in as
+you go, not reconstructed from memory at the end. It'll walk you through
+what to record and how to format it.
+
+## Step 5: Do the actual project
 
 See `README.md` for the dataset and what you're building, `starter/
 field_notes.ipynb` for the notebook skeleton, and `milestones.md` for a
 suggested day-by-day pace. Your instructor will separately share the full
 checklist and grading rubric through the classroom, not this repo.
+
+Along the way, you're going to hit at least one confusing terminal error —
+everyone does. When it happens: read the error message, don't just retype the
+command hoping it works. That's exactly what the last section of
+`TERMINAL_LOG.md` is for.
