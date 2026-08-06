@@ -93,10 +93,11 @@ what to record and how to format it.
 
 ## Step 5: Do the actual project
 
-See `README.md` for the dataset and what you're building, `starter/
-field_notes.md` for the field-notes template, and `milestones.md` for a
-suggested day-by-day pace. Your instructor will separately share the full
-checklist and grading rubric through the classroom, not this repo.
+See `PROJECT_OVERVIEW.md` for what you're building and why, `README.md` for
+the dataset, `starter/field_notes.md` for the field-notes template, and
+`TIMELINE.md` for a suggested day-by-day pace. Your instructor will
+separately share the full checklist and grading rubric through the
+classroom, not this repo.
 
 Along the way, you're going to hit at least one confusing terminal error —
 everyone does. When it happens: read the error message, don't just retype the
