@@ -12,7 +12,7 @@ that — except the last one, which explicitly gives you the code to run.
   starting idea: of the rows missing `gdp` (section 5), how many are real
   countries (non-empty `iso_code`) vs. aggregate rows? That needs an `awk`
   one-liner combining both conditions — worth looking up. Log the chain and
-  what it told you in `TERMINAL_LOG.md`. This is the same terminal fluency
+  what it told you in `field_notes.md`. This is the same terminal fluency
   **Module 7, 8, and 9's** heavier data-engineering/pipeline work assumes you
   already have.
 
@@ -36,7 +36,7 @@ that — except the last one, which explicitly gives you the code to run.
   `git reset --hard`, a force-push, anything that deletes or overwrites
   without asking again. Then decide: approve it as-is, modify it, or reject
   it — and say why. Only then actually run whatever you approved, and log the
-  real result in `TERMINAL_LOG.md`. This is `ai-literacy` and
+  real result in `field_notes.md`. This is `ai-literacy` and
   `terminal-command-line` at the same time, and it's exactly the judgment
   call **Module 4** (Python for Data Analysis, your first real
   AI-assisted-coding work) and **Module 13** (Generative/Agentic AI Tooling)
@@ -78,9 +78,9 @@ that — except the last one, which explicitly gives you the code to run.
   print(guess_type("Afghanistan")) # a country name
   print(guess_type(""))            # a missing gdp value
   ```
-  In `TERMINAL_LOG.md` or `field_notes.md`, write 1-2 sentences comparing
-  this to what you did by hand: does `guess_type()` agree with your own
-  column-type table from section 3? Where might it disagree, and why?
+  In `field_notes.md`, write 1-2 sentences comparing this to what you did by
+  hand: does `guess_type()` agree with your own column-type table from
+  section 3? Where might it disagree, and why?
 
 None of these change what counts as "done" per `MVP.md` — they're optional,
 and a complete MVP without any of these is still a full, passing submission.

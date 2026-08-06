@@ -22,12 +22,11 @@ This is done when all of the following are true:
 - [ ] **AI-literacy reflection.** 2 concrete risks of trusting unverified AI
   output about this data, plus one specific, checkable personal rule for
   double-checking an AI-provided fact.
-- [ ] **Terminal log.** `TERMINAL_LOG.md` filled in as you actually worked —
-  real commands in fenced ` ```bash ` blocks, including one real error and
-  how you diagnosed it from the message.
-- [ ] **GitHub repo.** Public, contains `field_notes.md`, `TERMINAL_LOG.md`,
-  and a `README.md`. No Python file is expected — this project doesn't test
-  writing code.
+- [ ] **Terminal log.** `field_notes.md`'s "Setup log" section and section 9
+  filled in as you actually worked — real commands in fenced ` ```bash `
+  blocks, including one real error and how you diagnosed it from the message.
+- [ ] **GitHub repo.** Public, contains `field_notes.md` and a `README.md`.
+  No Python file is expected — this project doesn't test writing code.
 - [ ] **Commit history.** At least **2 commits**, each with a real, descriptive
   message (`add raw data`, `add column-type notes`, etc.) — not one
   everything-at-once commit and not messages like `update` or `final`.
