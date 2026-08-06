@@ -1,5 +1,12 @@
 # Data Literacy Field Notes & Terminal Log
 
+**The setup:** You're a new data analyst, and this dataset just landed with
+zero documentation. Before anyone can trust an analysis built on top of it,
+you need to figure out what's actually in it — what each column really
+holds, and anything that looks off. That's what this whole file walks
+through: the real, everyday first pass any analyst runs on an unfamiliar
+file.
+
 Dataset: `../data/co2_emissions_2022.csv` (see `../data/SOURCE.md`). Each
 section below describes what you're trying to find out — **figuring out
 which command (and which flags) actually gets you there is part of what
@@ -41,13 +48,12 @@ reconstruct it from memory at the end.
 
 ## 1. First look at the raw file
 
-**Scenario:** You've just been handed this CSV with no documentation beyond
-a filename. Before trusting anything about its columns, you want a quick,
-safe peek at the raw structure — not the whole 254-row file, just enough to
-see the shape of it.
+Before trusting anything about this file's structure, you want a quick,
+safe peek at it — not the whole 254-row file, just the **first 5 lines**,
+enough to see the shape of it without scrolling past everything.
 
 ```bash
-# TODO: a command that shows just the first several lines of the raw file
+# TODO: a command that prints just the first 5 lines of the raw file
 ```
 
 **Output:**
@@ -57,8 +63,8 @@ _TODO: paste what you actually got_
 
 ## 2. Column names
 
-**Scenario:** You want to see just the column names by themselves — one per
-line is a lot easier to scan than one long comma-separated row.
+Next you want to see just the column names by themselves — one per line is
+a lot easier to scan than one long comma-separated row.
 
 ```bash
 # TODO: a command (or combination of commands) that prints just the header
@@ -70,13 +76,13 @@ _TODO_
 
 ## 3. Column-by-column data type table
 
-**Scenario:** For each column, you want to preview several real values from
-*just that one column*, without scrolling through every field on every row.
-Column numbers for reference: `country`=1, `iso_code`=2, `year`=3,
+For each column, you want to preview real values — **the first 6 values**
+of just that one column — without scrolling through every field on every
+row. Column numbers for reference: `country`=1, `iso_code`=2, `year`=3,
 `population`=4, `gdp`=5, `co2`=6.
 
 ```bash
-# TODO: a command that previews several real values from a single column
+# TODO: a command that prints the first 6 values from a single column
 # (repeat this for at least 5 of the 6 columns, swapping in each column's number)
 ```
 
@@ -100,17 +106,18 @@ _TODO_
 
 ## 4. Structured or unstructured?
 
-State which this dataset is, and why.
+State whether this dataset is structured or unstructured, and why.
 
 _TODO_
 
 ## 5. Before you trust this data
 
-**Scenario:** Your first look (§1) turned up a row with a suspiciously
-**blank** `iso_code`. You want to find out exactly how many of the 254 rows
-share that blank — is it a one-off, or a real pattern worth flagging? You
-may need more than one command for this — piping (`|`) feeds one command's
-output into the next as input.
+Your first look (see section 1) turned up a row with a suspiciously
+**blank** `iso_code`. Before you build anything on this data, you want to
+know exactly how many of the 254 rows share that blank — is it a one-off,
+or a real pattern worth flagging before anyone draws conclusions from it?
+You may need more than one command for this — piping (`|`) feeds one
+command's output into the next as input.
 
 ```bash
 # TODO: a command (or combination) that counts how many rows have a
@@ -148,8 +155,8 @@ _TODO_
 
 Different question from #6 — that one was about checking the data's
 trustworthiness. This one's about you: what's something you're genuinely
-curious to explore using this data? **Scenario:** pick two specific
-countries you're curious to compare, and look up their full rows.
+curious to explore using this data? Pick two specific countries you're
+curious to compare, and look up their full rows.
 
 ```bash
 # TODO: a command that finds a specific country's row by name (repeat for
@@ -175,19 +182,19 @@ actually follow it, not "I'll be careful."
 
 **My rule:** _TODO_
 
-## 9. An error you hit and how you diagnosed it
+## 9. Something that went wrong (and how you figured it out)
 
-Somewhere in this project you're going to hit at least one confusing
-terminal error — everyone does. Paste the actual command and the actual
-error message (not a paraphrase), then explain what the error message
-specifically told you and how that led to the fix — not "I googled it and
-it worked."
+Somewhere in this project you're going to run a command that either throws
+an error or gives you output that isn't what you expected — everyone hits
+this at least once. Paste the actual command and what actually happened
+(not a paraphrase), then explain what that told you and how it led to the
+fix — not "I googled it and it worked."
 
 ```bash
-# TODO: the actual command that errored
+# TODO: a command that errored, or gave you unexpected results
 ```
 
-**Error:**
-_TODO: the actual error message_
+**What happened:**
+_TODO: the actual error message, or the unexpected output you got_
 
 **What it told me and how I fixed it:** _TODO_
