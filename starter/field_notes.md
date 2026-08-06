@@ -1,4 +1,4 @@
-# Data Literacy Field Notes
+# Data Literacy Field Notes & Terminal Log
 
 Dataset: `../data/co2_emissions_2022.csv` (see `../data/SOURCE.md`). Every
 section below gives you the exact terminal command to run — paste the
@@ -8,6 +8,32 @@ before anything else.
 
 Run all commands from the repo root, or `cd` into `data/` first and drop the
 `data/` prefix — your choice, just be consistent.
+
+**This one file is your whole record** — the commands you ran, their real
+output, and your written answers, all together in the order you actually
+did the work. There's no separate log file to keep in sync with this one;
+whenever you write a command down anywhere in this file, use a fenced code
+block tagged `bash`, like this:
+
+````
+```bash
+git status
+```
+````
+
+Three backticks, the word `bash`, your command, three backticks to close —
+it renders with syntax highlighting and makes the command copy-pasteable.
+
+## Setup log
+
+Before jumping into the dataset, log the commands you actually ran to set
+this repo up (see `GETTING_STARTED.md`) — `git init`/clone, creating your
+`.gitignore` and `LICENSE`, your first commit. Add to this as you go, don't
+reconstruct it from memory at the end.
+
+```bash
+# TODO: the commands you actually ran to set up this repo
+```
 
 ## 1. First look at the raw file
 
@@ -145,3 +171,22 @@ actually follow it, not "I'll be careful."
 2. _TODO_
 
 **My rule:** _TODO_
+
+## 9. An error you hit and how you diagnosed it
+
+Somewhere in this project you're going to hit at least one confusing
+terminal error — everyone does. Paste the actual command and the actual
+error message (not a paraphrase), then explain what the error message
+specifically told you and how that led to the fix — not "I googled it and
+it worked."
+
+```bash
+# TODO: the actual command that errored
+```
+
+**Error:**
+```
+_TODO: the actual error message_
+```
+
+**What it told me and how I fixed it:** _TODO_

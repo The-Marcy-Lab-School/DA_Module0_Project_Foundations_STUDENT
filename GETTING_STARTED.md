@@ -9,8 +9,8 @@ purpose, so there's no cross-platform noise to wade through.
 ## Writing bash commands (you'll need this)
 
 Anywhere in this project you write down a terminal command — in
-`TERMINAL_LOG.md`, your `README.md`, anywhere — write it in a **fenced code
-block tagged `bash`**, like this:
+`starter/field_notes.md`, your `README.md`, anywhere — write it in a
+**fenced code block tagged `bash`**, like this:
 
 ````
 ```bash
@@ -22,7 +22,7 @@ Three backticks, the word `bash`, your command, three backticks to close.
 This is the standard way commands are shown in any real README or docs
 site — it renders with syntax highlighting and makes the command
 copy-pasteable, instead of just sitting in a paragraph as plain text. You'll
-use this throughout `TERMINAL_LOG.md` (see Step 4).
+use this throughout `starter/field_notes.md` (see Step 4).
 
 ## Step 1: Get your own copy
 
@@ -83,23 +83,25 @@ sets up the local repo and connects the remote for you) — if you're not sure
 `git status` and `git remote -v` both work cleanly in this folder, that's the
 first thing to check before moving on.
 
-## Step 4: Keep a real terminal log as you work
+## Step 4: Keep a real running record as you work
 
 This module tests `terminal-command-line` as its own skill, not just "did
-you use git" — so **`TERMINAL_LOG.md` is a required part of this
-project, not optional extra credit.** Open it now and start filling it in as
-you go, not reconstructed from memory at the end. It'll walk you through
-what to record and how to format it.
+you use git" — so **`starter/field_notes.md` is where you log commands as
+you actually run them, not reconstructed from memory at the end.** It's one
+file: your setup commands, the dataset-inspection commands with real output,
+your written answers, and the error you hit later, all in the order you
+actually did the work — no separate log file to keep in sync with it. Open
+it now; the "Setup log" section at the top is where today's work starts.
 
 ## Step 5: Do the actual project
 
 See `PROJECT_OVERVIEW.md` for what you're building and why, `README.md` for
-the dataset, `starter/field_notes.md` for the field-notes template, and
+the dataset, `starter/field_notes.md` for the field-notes/log template, and
 `TIMELINE.md` for a suggested day-by-day pace. Your instructor will
 separately share the full checklist and grading rubric through the
 classroom, not this repo.
 
 Along the way, you're going to hit at least one confusing terminal error —
 everyone does. When it happens: read the error message, don't just retype the
-command hoping it works. That's exactly what the last section of
-`TERMINAL_LOG.md` is for.
+command hoping it works. That's exactly what section 9 of
+`starter/field_notes.md` is for.

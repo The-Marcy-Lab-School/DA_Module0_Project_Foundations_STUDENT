@@ -44,10 +44,10 @@ setting up `.gitignore`/`LICENSE`/your first commit yourself.
 
 ## What to do
 
-See `starter/field_notes.md` for the field-notes template — every section
-tells you which terminal command to run, and you fill in the real output you
-got plus your answer. `starter/TERMINAL_LOG.md` is the required running log
-of commands you actually use (start filling it in from Step 1, don't
+See `starter/field_notes.md` — one file for everything: every section tells
+you which terminal command to run, and you fill in the real output you got
+plus your answer, starting from a setup log at the top and ending with a
+real error you hit along the way (start filling it in from Step 1, don't
 reconstruct it at the end). `TIMELINE.md` has a suggested pace across the
 2 days. Your instructor shares the full step-by-step checklist and grading
 rubric separately through the classroom — not this repo.

@@ -25,10 +25,10 @@ can already do this without being walked through it again.
 - A **public GitHub repo**, created from the template via "Use this
   template" (not Fork).
 - Your own `.gitignore` and `LICENSE`.
-- `field_notes.md` filled in — all 8 sections, real terminal output pasted
-  in, not assumed or reconstructed.
-- `TERMINAL_LOG.md` — a real, running log of commands used throughout the
-  project, plus one genuine error and how you diagnosed it.
+- `starter/field_notes.md` filled in — one file covering your setup log,
+  all 8 data-literacy sections with real terminal output pasted in (not
+  assumed or reconstructed), and one genuine error you hit plus how you
+  diagnosed it.
 - At least **2 well-messaged commits** (not one "final" dump).
 - `README.md` updated with the dataset, its license/source, and a pointer to
   your data-quality question.
