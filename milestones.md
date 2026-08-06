@@ -8,11 +8,12 @@ Two checkpoints, working backward from what a complete submission needs:
 - Repo created from the template (`GETTING_STARTED.md`), cloned locally.
 - Your own `.gitignore` and `LICENSE` created and committed.
 - `TERMINAL_LOG.md` started — log commands from Step 1, not from memory later.
-- Dataset downloaded and actually opened raw (plain text/`less`/`head`) —
-  before any code.
-- Section 1 of `field_notes.ipynb` filled in with real observations from that
+- Dataset (already included at `data/co2_emissions_2022.csv`) actually opened
+  raw (plain text/`less`/`head`) — before running any inspection commands.
+- Section 1 of `field_notes.md` filled in with real observations from that
   raw look.
-- Column types loaded and inspected (`field_notes.ipynb` sections 2-3).
+- Column names and types inspected with real terminal output pasted in
+  (`field_notes.md` sections 2-3).
 
 **Exit criterion:** at least 2 real commits pushed to GitHub by end of day —
 e.g. `add gitignore and license`, then `add raw data notes`. `git log

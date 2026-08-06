@@ -94,7 +94,7 @@ what to record and how to format it.
 ## Step 5: Do the actual project
 
 See `README.md` for the dataset and what you're building, `starter/
-field_notes.ipynb` for the notebook skeleton, and `milestones.md` for a
+field_notes.md` for the field-notes template, and `milestones.md` for a
 suggested day-by-day pace. Your instructor will separately share the full
 checklist and grading rubric through the classroom, not this repo.
 
