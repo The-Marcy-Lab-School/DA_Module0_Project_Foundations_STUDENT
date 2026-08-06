@@ -101,6 +101,15 @@ the dataset, `starter/field_notes.md` for the field-notes/log template, and
 separately share the full checklist and grading rubric through the
 classroom, not this repo.
 
+**Where's the exact bar for "done," and what are the optional stretch
+goals?** This repo (your own copy) doesn't include `MVP.md` or
+`ABOVE_AND_BEYOND.md` on purpose — they're not something to keep sitting in
+your portfolio repo. Ask your instructor for the link to this template's
+`project-scope` branch (it'll look like `.../tree/project-scope` on the
+*template's* GitHub page, not your own copy) to read them, or check the
+checklist your instructor shares through the classroom, which covers the
+same ground.
+
 Along the way, you're going to hit at least one confusing terminal error —
 everyone does. When it happens: read the error message, don't just retype the
 command hoping it works. That's exactly what section 9 of

@@ -1,10 +1,14 @@
 # Data Literacy Field Notes & Terminal Log
 
-Dataset: `../data/co2_emissions_2022.csv` (see `../data/SOURCE.md`). Every
-section below gives you the exact terminal command to run — paste the
-**real output** you got, then write your answer based on what you actually
-saw, not what you'd expect. Work through this in order; open the raw file
-before anything else.
+Dataset: `../data/co2_emissions_2022.csv` (see `../data/SOURCE.md`). Each
+section below describes what you're trying to find out — **figuring out
+which command (and which flags) actually gets you there is part of what
+this project tests**, so the exact command isn't given. Where a command
+belongs, you'll see a `# TODO:` comment describing the goal instead of a
+ready-to-run command; replace the comment with the real command you used.
+Paste the **real output** you got underneath, then write your answer based
+on what you actually saw, not what you'd expect. Work through this in
+order; open the raw file before anything else.
 
 Run all commands from the repo root, or `cd` into `data/` first and drop the
 `data/` prefix — your choice, just be consistent.
@@ -37,43 +41,47 @@ reconstruct it from memory at the end.
 
 ## 1. First look at the raw file
 
-Before anything else, look at the file as plain text — don't jump to
-inspecting it column-by-column yet.
+**Scenario:** You've just been handed this CSV with no documentation beyond
+a filename. Before trusting anything about its columns, you want a quick,
+safe peek at the raw structure — not the whole 254-row file, just enough to
+see the shape of it.
 
 ```bash
-head -4 data/co2_emissions_2022.csv
+# TODO: a command that shows just the first several lines of the raw file
 ```
 
 **Output:**
-```
 _TODO: paste what you actually got_
-```
 
 **What I notice:** _TODO — your raw observations, in your own words_
 
 ## 2. Column names
 
+**Scenario:** You want to see just the column names by themselves — one per
+line is a lot easier to scan than one long comma-separated row.
+
 ```bash
-head -1 data/co2_emissions_2022.csv | tr ',' '\n'
+# TODO: a command (or combination of commands) that prints just the header
+# row, one column name per line
 ```
 
 **Output:**
-```
 _TODO_
-```
 
 ## 3. Column-by-column data type table
 
-For each column, preview real values with `cut` (change `-f` to the column's
-number: `country`=1, `iso_code`=2, `year`=3, `population`=4, `gdp`=5,
-`co2`=6). Example for `country`:
+**Scenario:** For each column, you want to preview several real values from
+*just that one column*, without scrolling through every field on every row.
+Column numbers for reference: `country`=1, `iso_code`=2, `year`=3,
+`population`=4, `gdp`=5, `co2`=6.
 
 ```bash
-cut -d, -f1 data/co2_emissions_2022.csv | head -6
+# TODO: a command that previews several real values from a single column
+# (repeat this for at least 5 of the 6 columns, swapping in each column's number)
 ```
 
-Run the equivalent for at least 5 of the 6 columns, then fill in the table
-from what you actually saw — not a guess from the column name alone:
+Fill in the table from what you actually saw — not a guess from the column
+name alone:
 
 | Column | Inferred type | How I can tell |
 |---|---|---|
@@ -98,31 +106,30 @@ _TODO_
 
 ## 5. Before you trust this data
 
+**Scenario:** Your first look (§1) turned up a row with a suspiciously
+**blank** `iso_code`. You want to find out exactly how many of the 254 rows
+share that blank — is it a one-off, or a real pattern worth flagging? You
+may need more than one command for this — piping (`|`) feeds one command's
+output into the next as input.
+
+```bash
+# TODO: a command (or combination) that counts how many rows have a
+# BLANK iso_code
+```
+
+**Output:**
+_TODO_
+
+```bash
+# TODO: the same idea, but for the gdp column
+```
+
+**Output:**
+_TODO_
+
 List **at least 2** specific things you'd want to know about how this
-dataset was collected, before trusting any conclusion drawn from it. Ground
-at least one in something you actually checked — try these:
-
-```bash
-tail -n +2 data/co2_emissions_2022.csv | cut -d, -f2 | grep -c '^$'
-```
-(Counts how many rows have a **blank** `iso_code`. `tail -n +2` skips the
-header, `cut -d, -f2` pulls just that column, `grep -c '^$'` counts empty
-lines.)
-
-**Output:**
-```
-_TODO_
-```
-
-```bash
-tail -n +2 data/co2_emissions_2022.csv | cut -d, -f5 | grep -c '^$'
-```
-(Same idea, for the `gdp` column.)
-
-**Output:**
-```
-_TODO_
-```
+dataset was collected, before trusting any conclusion drawn from it — ground
+at least one in the counts you just found.
 
 **My 2 concerns:**
 1. _TODO_
@@ -141,20 +148,16 @@ _TODO_
 
 Different question from #6 — that one was about checking the data's
 trustworthiness. This one's about you: what's something you're genuinely
-curious to explore using this data? Look up a specific row or two to help
-form the question — e.g.:
+curious to explore using this data? **Scenario:** pick two specific
+countries you're curious to compare, and look up their full rows.
 
 ```bash
-grep "^China," data/co2_emissions_2022.csv
-grep "^India," data/co2_emissions_2022.csv
+# TODO: a command that finds a specific country's row by name (repeat for
+# a second country of your choice)
 ```
-
-(Swap in any two countries you're actually curious to compare.)
 
 **Output:**
-```
 _TODO_
-```
 
 **My question:** _TODO_
 
@@ -185,8 +188,6 @@ it worked."
 ```
 
 **Error:**
-```
 _TODO: the actual error message_
-```
 
 **What it told me and how I fixed it:** _TODO_
