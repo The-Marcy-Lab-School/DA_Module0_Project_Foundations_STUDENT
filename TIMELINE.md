@@ -1,7 +1,17 @@
-# Milestones — 2 Days
+# Recommended Timeline — 2 Days
 
 This first project is intentionally short: 2 focused days, not a full week.
-Two checkpoints, working backward from what a complete submission needs:
+This is a **suggested pace, not a rigid schedule** — two checkpoints, working
+backward from what a complete submission needs.
+
+> A note on this: for this first project, we're handing you a ready-made
+> timeline because you're still getting oriented to the whole workflow. As
+> you move through the program, you'll be expected to plan your own pacing —
+> later projects may ask you to set up your own tracking (a GitHub Projects
+> board, a simple issue list, whatever fits) instead of working from a
+> timeline someone else wrote for you. Treat this one as a model of what
+> breaking a project into checkpoints looks like, not just a checklist to
+> follow on autopilot.
 
 ## Day 1 — Environment set up, raw look, first commits
 
