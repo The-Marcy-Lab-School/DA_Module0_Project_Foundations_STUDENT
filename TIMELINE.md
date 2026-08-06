@@ -17,7 +17,8 @@ backward from what a complete submission needs.
 
 - Repo created from the template (`GETTING_STARTED.md`), cloned locally.
 - Your own `.gitignore` and `LICENSE` created and committed.
-- `TERMINAL_LOG.md` started — log commands from Step 1, not from memory later.
+- `starter/field_notes.md`'s "Setup log" section started — log commands from
+  Step 1, not from memory later.
 - Dataset (already included at `data/co2_emissions_2022.csv`) actually opened
   raw (plain text/`less`/`head`) — before running any inspection commands.
 - Section 1 of `field_notes.md` filled in with real observations from that
@@ -37,8 +38,8 @@ e.g. `add gitignore and license`, then `add raw data notes`. `git log
 - A separate, genuinely-curious question written (section 7) — not the same
   question as section 6.
 - AI-literacy reflection: 2 risks + one specific personal rule (section 8).
-- `TERMINAL_LOG.md` finished: a real error and how you diagnosed it, plus
-  everything else you actually ran.
+- Section 9 filled in: a real error and how you diagnosed it, plus the rest
+  of `field_notes.md`'s setup log has everything else you actually ran.
 - `README.md` finished: dataset/license, data-quality question.
 - Final commit(s) pushed — `git log --oneline` should show 3+ commits total,
   each with a real message.
