@@ -23,7 +23,8 @@ This is done when all of the following are true:
   double-checking an AI-provided fact.
 - [ ] **Terminal log.** `field_notes.md`'s "Setup log" section and section 9
   filled in as you actually worked — real commands in fenced ` ```bash `
-  blocks, including one real error and how you diagnosed it from the message.
+  blocks, including one real error or unexpected result and how you figured
+  it out.
 - [ ] **GitHub repo.** Public, contains `field_notes.md` and a `README.md`.
   No Python file is expected — this project doesn't test writing code.
 - [ ] **Commit history.** At least **2 commits**, each with a real, descriptive
