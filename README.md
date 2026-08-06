@@ -15,34 +15,35 @@ it's meant to get you moving, not to be a big lift).
 - **AI literacy** — distinguishing a verified fact from an unverified AI claim
 - **Curiosity** — asking a real, specific question you want to explore in data
 - **Critical thinking** — questioning a dataset's collection process, not just its surface
-- **Terminal / command line** — navigating and working entirely from the shell, with a real log of what you actually ran
+- **Terminal / command line** — this is the main hands-on skill this project tests. You'll inspect real data entirely from the command line (`head`, `cut`, `grep`, `wc`, `sort`) — no Python required or expected yet, that starts in Module 1.
 
 ## What you're building
 
-Set up your personal data-analytics development environment, then produce a
-**"Data Literacy Field Notes" mini-notebook**: inspect a small, previously-unseen
-real public dataset, document each column's inferred data type and whether the
-dataset is structured or unstructured, note one specific data-quality
-question you'd ask the data's source, a separate question you're personally
-curious to explore, and a short AI-literacy reflection. Push the notebook plus
-a README to a new **public GitHub repository** with at least two well-messaged
-commits.
+Set up your personal data-analytics development environment, then produce
+**"Data Literacy Field Notes"**: inspect a small, previously-unseen real
+public dataset **using terminal commands**, document each column's inferred
+data type and whether the dataset is structured or unstructured, note one
+specific data-quality question you'd ask the data's source, a separate
+question you're personally curious to explore, and a short AI-literacy
+reflection. Push it all plus a README to a new **public GitHub repository**
+with at least two well-messaged commits.
 
 This is the very first project of the program — it isn't testing deep data
-skills yet. It's testing whether you can set up a real development workflow
-(terminal, git, GitHub) and look at unfamiliar data carefully and honestly,
-both habits everything else in this program builds on.
+skills yet, and it isn't testing *writing* code (that starts in Module 1;
+"Programming fundamentals" above means explaining ideas like data types and
+data structures in your own words, not writing a program). It's testing
+whether you can set up a real development workflow (terminal, git, GitHub)
+and look at unfamiliar data carefully and honestly **using the terminal
+commands you already have**, both habits everything else in this program
+builds on.
 
 ## Dataset
 
-Everyone in this cohort uses the same dataset: **OWID's CO2 and Greenhouse
-Gas Emissions dataset** — https://github.com/owid/co2-data (the
-`owid-co2-data.csv` file in that repo).
-
-License: **CC BY 4.0** — verified directly against the repo's own README
-("All visualizations, data, and code produced by *Our World in Data* are
-completely open access under the Creative Commons BY license"). You're free to
-use it in your public repo; credit Our World in Data as the source.
+Everyone in this cohort uses the same dataset — already included at
+`data/co2_emissions_2022.csv`, no download needed. It's a small, curated
+slice (254 rows, 6 columns, the year 2022) of OWID's full public CO2 and
+Greenhouse Gas Emissions dataset. See `data/SOURCE.md` for exactly how it
+was derived and its license (CC BY 4.0, Our World in Data).
 
 Don't substitute a different dataset — using the same one across the cohort
 keeps everyone's grading consistent and means classmates can actually compare
@@ -63,18 +64,18 @@ Tools for this module (all free):
 - **GitHub** — free tier, unlimited public repos. Create an account if you
   don't have one.
 - **VS Code** — download from https://code.visualstudio.com (the macOS
-  `.dmg` build), drag it into Applications.
+  `.dmg` build), drag it into Applications. You'll use it to edit Markdown
+  files and open a terminal — not to write or run any code this project.
 
 See `GETTING_STARTED.md` for turning this template into your own repo and
-setting up `.gitignore`/`LICENSE`/your first commit yourself. Once that's
-done: download `owid-co2-data.csv` from the dataset link above and you're
-ready to start.
+setting up `.gitignore`/`LICENSE`/your first commit yourself.
 
 ## What to do
 
-See `starter/field_notes.ipynb` for the notebook skeleton (fill it in section
-by section — don't skip straight to the code cell), `starter/TERMINAL_LOG.md`
-for the required running log of commands you actually use (start filling it
-in from Step 1, don't reconstruct it at the end), and `milestones.md` for a
-suggested pace across the 2 days. Your instructor shares the full step-by-step
-checklist and grading rubric separately through the classroom — not this repo.
+See `starter/field_notes.md` for the field-notes template — every section
+tells you which terminal command to run, and you fill in the real output you
+got plus your answer. `starter/TERMINAL_LOG.md` is the required running log
+of commands you actually use (start filling it in from Step 1, don't
+reconstruct it at the end). `milestones.md` has a suggested pace across the
+2 days. Your instructor shares the full step-by-step checklist and grading
+rubric separately through the classroom — not this repo.
