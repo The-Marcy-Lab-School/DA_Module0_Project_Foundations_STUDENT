@@ -16,16 +16,15 @@ that — except the last one, which explicitly gives you the code to run.
   **Module 7, 8, and 9's** heavier data-engineering/pipeline work assumes you
   already have.
 
-- **Find the min and max of a numeric column** — `sort -n` a column
-  numerically, then `head -1`/`tail -1` for the min/max:
-  ```bash
-  tail -n +2 data/co2_emissions_2022.csv | cut -d, -f6 | grep -v '^$' | sort -n | head -1
-  tail -n +2 data/co2_emissions_2022.csv | cut -d, -f6 | grep -v '^$' | sort -n | tail -1
-  ```
-  (that's the `co2` column — try `population` or `gdp` too). You're not doing
-  real exploratory data analysis yet (that's **Module 2**), but noticing "this
-  range looks suspicious" or "this min is exactly 0 — is that a true zero or
-  a missing-value placeholder?" is the same instinct EDA is built on.
+- **Find the min and max of a numeric column** — sorting a column
+  *numerically* (not alphabetically — figure out which flag does that) and
+  then looking at the first and last result gets you there. You'll need to
+  isolate one column first (same technique as section 3), skip the header
+  row, and drop blanks before sorting — chaining a few commands together.
+  Try it on `co2`, `population`, or `gdp`. You're not doing real exploratory
+  data analysis yet (that's **Module 2**), but noticing "this range looks
+  suspicious" or "this min is exactly 0 — is that a true zero or a
+  missing-value placeholder?" is the same instinct EDA is built on.
 
 - **Practice deciding whether to approve an AI-suggested command — the way
   you will constantly once you're using tools like Claude Code for real.**

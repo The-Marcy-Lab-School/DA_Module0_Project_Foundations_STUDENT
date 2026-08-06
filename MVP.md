@@ -3,10 +3,9 @@
 This is done when all of the following are true:
 
 - [ ] **Column data types.** At least **5 of 6** columns have a correct
-  inferred data type, each with a one-sentence reason based on what you
-  actually saw running the `cut` command for that column in `field_notes.md`
-  — not a guess from the column name alone, and not a type you can't
-  actually point to a real value for.
+  inferred data type, each with a one-sentence reason based on real
+  column-preview output in `field_notes.md` — not a guess from the column
+  name alone, and not a type you can't actually point to a real value for.
 - [ ] **List vs. table.** In your own words, you explain the actual
   difference between a list/array and a table.
 - [ ] **Structured vs. unstructured.** You state which one this dataset is,
