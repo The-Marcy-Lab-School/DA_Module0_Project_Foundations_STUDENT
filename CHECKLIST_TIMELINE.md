@@ -24,8 +24,8 @@ command you run and record, not a program you write.
 - [ ] Your own `.gitignore` created (a few real lines, not copy-pasted blind)
   and a `LICENSE` chosen.
 - [ ] `field_notes.md`'s "Setup log" section opened and started — log
-  commands as you go, in fenced ` ```bash ` blocks, not reconstructed from
-  memory later.
+  commands as you go, in fenced code blocks tagged `bash`, not reconstructed
+  from memory later.
 - [ ] Confirm `data/co2_emissions_2022.csv` is present — included in the
   template, everyone uses this same file.
 - [ ] Look at the raw CSV as plain text **before running any column-preview
@@ -76,8 +76,8 @@ command you run and record, not a program you write.
   > careful."
 - [ ] Commit: `git commit -m "add reflection"`.
 - [ ] Setup log has real commands from throughout the project (not just a
-  token line), each in a fenced ` ```bash ` block; section 9 includes a real
-  error (or unexpected result) and how you diagnosed it.
+  token line), each in a fenced code block tagged `bash`; section 9 includes
+  a real error (or unexpected result) and how you diagnosed it.
   > ⚠️ Common mistake: a vague or generic-sounding note that could've been
   > written without actually hitting it.
 - [ ] Update `README.md`: what the dataset is, its license/source, and a
