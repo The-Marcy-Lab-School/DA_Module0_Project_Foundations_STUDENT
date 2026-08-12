@@ -56,5 +56,5 @@ See `TIMELINE.md` for a suggested day-by-day pace.
 
 ## Where to start
 
-New here? Go to `GETTING_STARTED.md` — it walks through turning this
-template into your own repo, step by step.
+New here? Go to `README.md` — it walks through turning this template into
+your own repo, step by step.
