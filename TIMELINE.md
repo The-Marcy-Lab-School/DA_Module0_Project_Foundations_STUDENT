@@ -15,7 +15,7 @@ backward from what a complete submission needs.
 
 ## Day 1 — Environment set up, raw look, first commits
 
-- Repo created from the template (`GETTING_STARTED.md`), cloned locally.
+- Repo created from the template (`README.md`), cloned locally.
 - Your own `.gitignore` and `LICENSE` created and committed.
 - `starter/field_notes.md`'s "Setup log" section started — log commands from
   Step 1, not from memory later.
