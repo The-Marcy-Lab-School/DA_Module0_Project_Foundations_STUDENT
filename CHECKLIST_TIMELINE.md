@@ -91,6 +91,15 @@ submission — this project doesn't have a separate above-and-beyond phase
 built into the 2-day pace; if you finish with real time left over, see
 below.
 
+## After Day 2: peer field-notes review
+
+Once everyone's submitted, there's a separate session where parts of your
+`field_notes.md` get shared **anonymously** with a small group of peers —
+you'll all compare reasoning against the *same* dataset (everyone used
+the same file this project), give each other real feedback, and see where
+your column-type calls and reflections agreed or didn't. No prep needed
+beyond having a real, finished `field_notes.md` — just know it's coming.
+
 ## Above & Beyond
 
 Only the additional items — everything above still applies and isn't
