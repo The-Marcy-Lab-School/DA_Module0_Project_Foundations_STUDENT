@@ -52,7 +52,8 @@ can already do this without being walked through it again.
 
 ## Timeline
 
-See `TIMELINE.md` for a suggested day-by-day pace.
+See `CHECKLIST_TIMELINE.md` for a suggested day-by-day pace and the full
+submission checklist.
 
 ## Where to start
 

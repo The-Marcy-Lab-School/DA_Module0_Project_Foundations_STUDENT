@@ -6,8 +6,9 @@ already in the right place.
 
 **Due:** 2 days (this first project is intentionally short — a couple of
 focused days right after this module's content phase, not a full week, since
-it's meant to get you moving, not to be a big lift). See `TIMELINE.md` for a
-suggested day-by-day pace.
+it's meant to get you moving, not to be a big lift). See
+`CHECKLIST_TIMELINE.md` for a suggested day-by-day pace and the full
+submission checklist.
 
 This repo is a **GitHub template** — a starting point, not something you edit
 directly on Marcy's copy of it. This is the first project of the whole
@@ -127,9 +128,9 @@ you which terminal command to run, and you fill in the real output you got
 plus your answer, starting from a setup log at the top and ending with a
 real error you hit along the way (start filling it in from Step 1, don't
 reconstruct it at the end). It's where you log commands as you actually run
-them, not reconstructed from memory at the end. `TIMELINE.md` has a
-suggested pace across the 2 days. Your instructor shares the full
-step-by-step checklist and grading rubric separately through the
+them, not reconstructed from memory at the end. `CHECKLIST_TIMELINE.md` has
+the suggested pace across the 2 days and the full step-by-step checklist.
+Your instructor shares the grading rubric separately through the
 classroom — not this repo.
 
 Along the way, you're going to hit at least one confusing terminal error —
